@@ -126,7 +126,7 @@ function clicked(elem){
 	let msg = document.getElementById('msg');
 	
 	// Put an X on that box, disable it's clicking and register that User has clicked that box.
-	elem.innerHTML = "<img src='images/X.PNG' alt='X'/>";
+	elem.innerHTML = "<img src='images/X.png' alt='X'/>";
 	elem.setAttribute("onclick","");
 	var currBox = boxes[elem.id];
 	console.log("User plays box "+elem.id);
