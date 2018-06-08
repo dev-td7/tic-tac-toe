@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tic Tac Toe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script src="main.js"></script>
+	<script src="minimax.js"></script>
+</head>
+<body>
+	<h1 class="title">Tic Tac Toe</h1>
+	<div class="center-of-page-div container">
+		<p style="height: 38px;"></p>
+		<img src="images/Grid.PNG" alt="Please reload. There has been an error." style="width: 100%; height: 100%;"/>
+	</div>
+	<div class="center-of-page-div container">
+		<p id="msg">Start playing</p>
+		<table>
+			<tr>
+				<td id="b1" class="b" onclick="clicked(this)" title="Play box 1"></td>
+				<td id="b2" class="b" onclick="clicked(this)" title="Play box 2"></td>
+				<td id="b3" class="b" onclick="clicked(this)" title="Play box 3"></td>
+			</tr>
+			<tr>
+				<td id="b4" class="b" onclick="clicked(this)" title="Play box 4"></td>
+				<td id="b5" class="b" onclick="clicked(this)" title="Play box 5"></td>
+				<td id="b6" class="b" onclick="clicked(this)" title="Play box 6"></td>
+			</tr>
+			<tr>
+				<td id="b7" class="b" onclick="clicked(this)" title="Play box 7"></td>
+				<td id="b8" class="b" onclick="clicked(this)" title="Play box 8"></td>
+				<td id="b9" class="b" onclick="clicked(this)" title="Play box 9"></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
